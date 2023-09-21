@@ -1,1 +1,1 @@
-cat rescar.tgz.cpt | ccrypt -d | tar -xzf -
+cat rescar.tgz.cpt | ccrypt -d -k passfile | tar -xzf -
